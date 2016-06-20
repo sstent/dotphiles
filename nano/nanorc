@@ -21,7 +21,7 @@ set backupdir "~/.backup/nano"
 unset backwards
 
 # Use bold text instead of reverse video text.
-set boldtext
+#set boldtext
 
 # Set the characters treated as closing brackets when justifying paragraphs.
 # They cannot contain blank characters. Only closing punctuation, optionally
@@ -64,11 +64,9 @@ set multibuffer
 # Don't convert files from DOS/Mac format.
 set noconvert
 
-# Don't follow symlinks when writing files.
-unset nofollow
 
 # Don't display the help lists at the bottom of the screen.
-set nohelp
+#set nohelp
 
 # Don't add newlines to the ends of files.
 unset nonewlines
@@ -153,53 +151,51 @@ unset wordbounds
 ## Syntax Highlighting
 
 #apacheconf
-#include "~/.nano.d/syntax-highlighting/apacheconf.nanorc"
+#include "~/.nano/syntax/apacheconf.nanorc"
 #asm
-#include "~/.nano.d/syntax-highlighting/asm.nanorc"
+#include "~/.nano/syntax/asm.nanorc"
 #c
-#include "~/.nano.d/syntax-highlighting/c.nanorc"
+#include "~/.nano/syntax/c.nanorc"
 #conf
-#include "~/.nano.d/syntax-highlighting/conf.nanorc"
+#include "~/.nano/syntax/conf.nanorc"
 #css
-include "~/.nano.d/syntax-highlighting/css.nanorc"
+include "~/.nano/syntax/css.nanorc"
 #cython
-#include "~/.nano.d/syntax-highlighting/cython.nanorc"
+#include "~/.nano/syntax/cython.nanorc"
 #fortran
-#include "~/.nano.d/syntax-highlighting/fortran.nanorc"
+#include "~/.nano/syntax/fortran.nanorc"
 #gentoo
-#include "~/.nano.d/syntax-highlighting/gentoo.nanorc"
+#include "~/.nano/syntax/gentoo.nanorc"
 #groff
-#include "~/.nano.d/syntax-highlighting/groff.nanorc"
+#include "~/.nano/syntax/groff.nanorc"
 #html
-include "~/.nano.d/syntax-highlighting/html.nanorc"
+include "~/.nano/syntax/html.nanorc"
 #java
-include "~/.nano.d/syntax-highlighting/java.nanorc"
+#include "~/.nano/syntax/java.nanorc"
 #lua
-#include "~/.nano.d/syntax-highlighting/lua.nanorc"
+#include "~/.nano/syntax/lua.nanorc"
 #man
-include "~/.nano.d/syntax-highlighting/man.nanorc"
+include "~/.nano/syntax/man.nanorc"
 #mutt
-#include "~/.nano.d/syntax-highlighting/mutt.nanorc"
+#include "~/.nano/syntax/mutt.nanorc"
 #nanorc
-include "~/.nano.d/syntax-highlighting/nanorc.nanorc"
+include "~/.nano/syntax/nanorc.nanorc"
 #patch
-include "~/.nano.d/syntax-highlighting/patch.nanorc"
-#perl
-include "~/.nano.d/syntax-highlighting/perl.nanorc"
+include "~/.nano/syntax/patch.nanorc"
 #php
-include "~/.nano.d/syntax-highlighting/php.nanorc"
+#include "~/.nano/syntax/php.nanorc"
 #pov
-#include "~/.nano.d/syntax-highlighting/pov.nanorc"
+#include "~/.nano/syntax/pov.nanorc"
 #python
-include "~/.nano.d/syntax-highlighting/python.nanorc"
+include "~/.nano/syntax/python.nanorc"
 #reST
-#include "~/.nano.d/syntax-highlighting/reST.nanorc"
+#include "~/.nano/syntax/reST.nanorc"
 #ruby
-include "~/.nano.d/syntax-highlighting/ruby.nanorc"
-#sh
-include "~/.nano.d/syntax-highlighting/sh.nanorc"
+include "~/.nano/syntax/ruby.nanorc"
+#shell
+include "~/.nano/syntax/shell.nanorc"
 #tex
-include "~/.nano.d/syntax-highlighting/tex.nanorc"
+#include "~/.nano/syntax/tex.nanorc"
 #xml
-include "~/.nano.d/syntax-highlighting/xml.nanorc"
+include "~/.nano/syntax/xml.nanorc"
 
