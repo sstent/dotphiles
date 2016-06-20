@@ -29,9 +29,9 @@ Host *
     #ControlPersist 8h
 
 Host pi1
-    Username pi
+    User pi
 
 Host pi2
-    Username pi
+    User pi
     
     
